@@ -1,0 +1,121 @@
+.logo-img{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    border-radius: 6px ;
+    padding: 7px;
+    
+}
+.nav-container{
+    display: flex;
+   justify-content: space-around;
+   
+}
+.navbar-nav{
+    display: flex;
+    gap: 100px;
+}
+.hov:hover{
+
+    color: red;
+    cursor: pointer;
+}
+.input-btn{
+    padding: 10px 0px;
+    padding-right: 300px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-color: gray;
+}
+.search-btn{
+    padding:10px 20px ;
+    border-radius: 6px;
+
+}
+#error{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+#data-img{
+    width: 98%;
+    
+    border-radius: 6px;
+}
+.child{
+    width:250px;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgb(115, 112, 112);
+    padding: 10px;
+    text-align: left;
+}
+.data-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card-container{
+    height: 100%;
+    width: 100%;
+    
+ 
+}
+.data-container{
+    border: 1px solid gray;
+    padding: 20px 1px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cart{
+
+    border: 1px solid gray;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 500px ;
+    border-radius: 5px;
+
+}
+.btn-add{
+
+    border-radius:6px ;
+    border: none;
+    /* margin-top: 6px; */
+    
+}
+.st{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.tt{
+    margin-left: 40px;
+}
+.text{ text-align: left;}
+.parent{
+    padding: 40px;
+    color: red;
+}
+.des{
+  width: 100%;
+  
+}
+#popup{
+  width: 90%;
+  height: 300px;
+  border-radius: 6px;
+}
+
+/* footer  */
+
+.dp{
+  width: 80%;
+}
+.foot{
+  max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap;
+}
